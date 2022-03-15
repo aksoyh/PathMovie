@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PathMovie</string>
+
+    <string name="no_internet">Please check your internet connection and try again</string>
+    <string name="network_error">Opps! Something went wrong, please try again</string>
+    <string name="refresh">refresh</string>
+    <string name="invalid_fields">Please fill in the required fields before continuing</string>
+    <string name="search_error">Please specify search criteria or enter a keyword</string>
+    <string name="common_error">An error occurred, please try again</string>
+</resources>

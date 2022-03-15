@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RootConstraintLayout">
+        <attr name="exclusiveTouch" format="boolean" />
+        <attr name="touchableInProgress" format="boolean" />
+        <attr name="blurBackground" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InformBarView">
+        <attr name="text" format="string" />
+        <attr name="informDuration" format="integer">
+            <enum name="Short" value="1" />
+            <enum name="Long" value="10" />
+        </attr>
+        <attr name="informType" format="integer">
+            <enum name="Inform" value="1" />
+            <enum name="Warning" value="10" />
+            <enum name="Error" value="100" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RadiusImageView">
+        <attr name="roundRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AbtCircularProgressBar">
+        <attr name="startAt" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="progressbar_thickness" format="integer" />
+        <attr name="progressbar_backthickness" format="integer" />
+        <attr name="progressbar_isDotted" format="boolean" />
+        <attr name="rotation" format="enum">
+            <enum name="clockwise" value="0" />
+            <enum name="anticlockwise" value="1" />
+        </attr>
+        <attr name="progress" format="float" />
+        <attr name="maxProgress" format="float" />
+        <attr name="progressColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+    <attr name="circularProgressbarStyle" format="reference" />
+
+</resources>
